@@ -150,7 +150,7 @@ body {
   grid-gap: 2vw;
   width: 470px;
   height: 261px;
-  margin-top: 200px;
+  margin-top: 90px;
 }
 
 .statistic__item{
@@ -195,6 +195,116 @@ body {
   margin-top: 60px;
 }
 
+@media (max-width: 760px) {
+  .header {
+    height: 750px;
+  }
+  
+  .wrapper {
+    width: 100%;
+  }
+  .menu__checkbox-label {
+    position: absolute;
+    top: 28px;
+    left: 270px;
+    width: 25px;
+    height: 17px;
+    content: url("../img/Mobile/menu.png");
+    cursor: pointer;
+  }
+
+  .header__wrapper {
+    padding: 20px 15px 0 15px;
+  }
+
+  .header__list {
+    display: none;
+  }
+
+  .wrapper__content{
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 175px;
+  }
+
+  .wrapper__content-title {
+    font-size: 34px;
+    line-height: 40.8px;
+    width: 290px;
+  }
+
+  .wrapper__content-description {
+    height: 112px;
+    width: 290px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+  }
+
+  .wrapper__content-button {
+    width: 290px;
+    height: 60px;
+  }
+
+  .header__social {
+    display: none;
+  }
+
+  .aboutUs {
+    height: 940px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .ourInfo {
+    width: 300px;
+  }
+
+
+
+  .statistic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .ourInfo-discr {
+    font-size: 16px;
+    line-height: 28px;
+    width: 290px;
+    height: 150px;
+    margin: auto;
+  }
+
+  .statistic-item {
+    height: 300px;
+    padding-left: 20px;
+  }
+
+  
+  .ourInfo-title {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 290px;
+    font-size: 34px;
+    line-height: 40.8px;
+  }
+
+  .statistic__item-discr {
+    width: 130px;
+  }
+
+  .statistic__item-number {
+    font-size: 34px;
+    line-height: 40.8px;
+  }
+}
+
 .aboutPM {
   align-items: center;
   max-width: 1170px;
@@ -202,6 +312,10 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 13px;
+}
+
+.aboutPM-img {
+  display: none;
 }
 
 .aboutPM__info {
@@ -229,6 +343,46 @@ body {
   width: 440px;
 }
 
+@media (max-width: 760px) {
+  .aboutPM {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+
+  .aboutPM__info {
+    width: 320px;
+    height: 10px;
+    margin: 0;
+  }
+
+  .aboutPM__title {
+    width: 250px;
+    margin: 0 0 0 15px;
+    font-size: 34px;
+    line-height: 40.8px;
+  }
+
+  .aboutPM__title-word {
+    display:inline;
+    height: 123px;
+  }
+
+  .aboutPM__info-img {
+    display: none;
+  }
+
+  .aboutPM__discr {
+    width: 300px;
+    margin-left: 15px;
+  }
+
+  .aboutPM-img {
+    padding: 50px 0 50px 0;
+    display: block;
+  }
+
+}
 .duties {
   height: 100vh;
   background-color: #F0F9FC;
