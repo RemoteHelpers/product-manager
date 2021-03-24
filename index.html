@@ -9,26 +9,37 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <div class="wrapper">
-
+      
       <div class="header__wrapper">
         <div class="header__logo">
           <a href="/" class="header__logo-link">
             <img src="./img/svg//Desktop/logo.svg" alt="" class="header__logo-pic">
           </a>
+          <input type="checkbox" id="check-menu">
+          <label for="check-menu"></label>
+          <div class="burger-line first"></div>
+          <div class="burger-line second"></div>
+          <div class="burger-line third"></div>
+          <div class="burger-line fourth"></div>
+          <nav class="main-menu">
+            <a href="#aboutUs" class="main-menu-link">О вакансии</a>
+            <a href="#duties" class="main-menu-link">Обязанности</a>
+            <a href="#demand" class="main-menu-link">Требования</a>
+          </nav>
         </div>
   
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
-              <a href="#!" class="header__link">О вакансии</a>
+              <a href="#aboutUs" class="header__link">О вакансии</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">Обязанности</a>
+              <a href="#duties" class="header__link">Обязанности</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">Требования</a>
+              <a href="#demand" class="header__link">Требования</a>
             </li>
           </ul>
         </nav>
@@ -56,7 +67,7 @@
       </div>
     </div>
   </header>
-  <section class="aboutUs">
+  <section class="aboutUs" id="aboutUs">
     <div class="statistic">
       <div class="statistic__item">
         <p class="statistic__item-number">250+</p>
@@ -98,7 +109,7 @@
     </div>
     <img src="./img/Desktop/img.png" alt="" class="aboutPM__info-img">
   </section>
-  <section class="duties">
+  <section class="duties" id="duties">
     <div class="duties__pos">
       <div class="duties__title">
         <p class="duties__title-word">
@@ -134,7 +145,7 @@
       </div>
     </div>
   </section>
-  <section class="demand">
+  <section class="demand" id="demand">
     <div class="demand__pos">
         <div class="demand__title">
           Какие  
@@ -202,7 +213,7 @@
   <footer class="footer">
     <div class="footer__contacts">
       <div class="footer__contacts-img">
-        <a href="/" class="footer__contacts-img-link">
+        <a href="#header" class="footer__contacts-img-link">
           <img src="./img/svg//Desktop/logo.svg" alt="" class="footer__contacts-img-pic">
         </a>
       </div>
